@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"nodemon app.js"
+    "start": "nodemon app.js"
   },
   "author": "Leeladhar Issar",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
     "nodemon": "^3.0.2",
-    "socket.io": "^4.7.4"
+    "socket.io": "^4.7.4",
+    "twilio": "^4.20.1"
   }
 }
