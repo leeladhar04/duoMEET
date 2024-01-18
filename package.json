@@ -1,0 +1,17 @@
+{
+  "name": "meetstranger",
+  "version": "1.0.0",
+  "description": "Application to talk to strangers or directly to someone via there unique code ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "author": "Leeladhar Issar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.4"
+  }
+}
