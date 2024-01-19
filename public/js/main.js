@@ -6,6 +6,8 @@ import * as ui from "./ui.js";
 import * as recordingUtils from "./recordingUtils.js";
 import * as strangerUtils from "./strangerUtils.js";
 
+// const io=require("socket.io")
+
 const getTurnServerCredentials=async()=>{
   const responseData =await axios.get('/api/get-turn-credentials');
   // console.log(responseData.data.token.iceServers);
